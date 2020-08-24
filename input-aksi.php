@@ -1,10 +1,11 @@
 <?php 
 include 'koneksi.php';
-$nama = $_POST['nama'];
-$alamat = $_POST['alamat'];
-$pekerjaan = $_POST['pekerjaan'];
+$nama_produk = $_POST['nama_produk'];
+$keterangan = $_POST['keterangan'];
+$harga = $_POST['harga'];
+$jumlah = $_POST['jumlah'];
 
-mysql_query("INSERT INTO user VALUES('','$nama','$alamat','$pekerjaan')");
+mysql_query("INSERT INTO user VALUES('','$nama_produk','$keterangan','$harga','$jumlah')");
 
 header("location:index.php?pesan=input");
 ?>
