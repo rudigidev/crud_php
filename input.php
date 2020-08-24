@@ -31,7 +31,7 @@
 			</tr>
                         <tr>
                                 <td>jumlah</td>
-                                <td><input type="number" name="jumlah"</td>	
+                                <td><input type="number" name="jumlah"></td>	
                         </tr>
 
        			<tr>
