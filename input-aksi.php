@@ -5,7 +5,7 @@ $keterangan = $_POST['keterangan'];
 $harga = $_POST['harga'];
 $jumlah = $_POST['jumlah'];
 
-mysql_query("INSERT INTO user VALUES('','$nama_produk','$keterangan','$harga','$jumlah')");
+mysqli_query($koneksi,"INSERT INTO user VALUES('','$nama_produk','$keterangan','$harga','$jumlah')");
 
 header("location:index.php?pesan=input");
 ?>
