@@ -29,10 +29,10 @@
 				<td>harga</td>
 				<td><input type="number" name="harga"></td>					
 			</tr>
-                        <tr>
-                                <td>jumlah</td>
-                                <td><input type="number" name="jumlah"></td>	
-                        </tr>
+            <tr>
+                <td>jumlah</td>
+                <td><input type="number" name="jumlah"></td>	
+            </tr>
 
        			<tr>
 				<td></td>
