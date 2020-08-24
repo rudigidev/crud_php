@@ -2,11 +2,12 @@
 
 include 'koneksi.php';
 $id = $_POST['id'];
-$nama = $_POST['nama'];
-$alamat = $_POST['alamat'];
-$pekerjaan = $_POST['pekerjaan'];
+$nama_produk = $_POST['nama_produk'];
+$keterangan = $_POST['keterangan'];
+$harga = $_POST['harga'];
+$jumlah = $_POST['jumlah'];
 
-mysql_query("UPDATE user SET nama='$nama', alamat='$alamat', pekerjaan='$pekerjaan' WHERE id='$id'");
+mysql_query("UPDATE user SET nama_produk='$nama_produk', keterangan='$keterangan', harga='$harga',jumlah='$jumlah' WHERE id='$id'");
 
 header("location:index.php?pesan=update");
 
